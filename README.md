@@ -1,5 +1,14 @@
 # lambda-express
 
+
+This was my attempt at creating a singular form framework to support all forms and provide a fast way to speed up development. Built off of the node12x hello-world SAM template.
+
+* [aws-serverless-express](https://github.com/awslabs/aws-serverless-express)
+* [Formidable](https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/welcome.html)
+
+Note: Using ApiGateway there is a 10MB limit for upload - this will work fine for form fields, but not recommended for large size uploads.
+Correct approach to do large upload is using presigned urls to do direct pos into s3. (To Do)
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - express - Code for the application's Lambda function.
