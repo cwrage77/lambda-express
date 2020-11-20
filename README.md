@@ -1,5 +1,6 @@
 # lambda-express
 
+* note: this is just an experiment to showcase the power of SAM to build quick solutions - it is NOT in any way production ready. Use at own risk. * 
 
 This was my attempt at creating a singular form framework to support all forms and provide a fast way to speed up development. Built off of the node12x hello-world SAM template.
 
