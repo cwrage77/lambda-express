@@ -1,5 +1,6 @@
+express/node_modules*
 *.aws-sam
 samconfig.toml
 *.iml
 *.idea
-
+local/*
